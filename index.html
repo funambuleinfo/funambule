@@ -13,7 +13,7 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light nav_bar_header">
+    <nav class="navbar navbar-expand-lg navbar-light nav_bar_header fixed-top">
       <a class="navbar-brand" href="#"><img src="assets/img/logo.jpg" alt="logo navbar"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
         </div>
       </div>
     </nav>
-    <div class="h1 text-center">
+    <div class="h1 text-center accueil_title">
       Bienvenue aux Funambules
     </div>
     <div id="carouselAccueil" class="carousel slide" data-ride="carousel">
@@ -124,17 +124,44 @@
       </div>
       <nav>
         <div class="nav nav-tabs text-center" id="nav-tab" role="tablist">
-          <a class="col-6 nav-item nav-link active" id="nav-bru-tab" data-toggle="tab" href="#nav-bru" role="tab"
-            aria-controls="nav-bru" aria-selected="true">Bruxelles</a>
-          <a class="col-6 nav-item nav-link" id="nav-nam-tab" data-toggle="tab" href="#nav-nam" role="tab"
-            aria-controls="nav-nam" aria-selected="false">Namur</a>
+          <a class="col-6 nav-item nav-link active" id="nav-bru-tab" data-toggle="tab" href="#nav-bru" role="tab" aria-controls="nav-bru" aria-selected="true">Bruxelles</a>
+          <a class="col-6 nav-item nav-link" id="nav-nam-tab" data-toggle="tab" href="#nav-nam" role="tab" aria-controls="nav-nam" aria-selected="false">Namur</a>
         </div>
       </nav>
-      
-    <div class="tab-pane fade show active" id="nav-bru" role="tabpanel" aria-labelledby="nav-bru-tab">
-
-    <div class="tab-pane fade" id="nav-nam" role="tabpanel" aria-labelledby="nav-nam-tab">
-
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-bru" role="tabpanel" aria-labelledby="nav-bru-tab">
+          <div class="row">
+          <div class="col-4">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Schaerbeek</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Jette (Club Norwest)</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Saint-Gilles (Pianofabriek)</a>
+          </div>
+        </div><div class="col-8">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="col-12">
+                Chaque 2ème jeudi du mois de 19h30 à 21h30, accueil dès 19h Prochaines dates: les jeudis 8 novembre, 13 décembre, ...
+                </div><div class="col-12">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5037.588416361444!2d4.391602!3d50.853495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c35b9031a5eb%3A0xb754562a96a8d16c!2sChauss%C3%A9e+de+Louvain+399%2C+1030+Schaerbeek%2C+Belgique!5e0!3m2!1sfr!2sus!4v1539958366913" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><div class="col-12">
+                Chaque 1er mardi du mois de 14h30 à 16h30, accueil dès 14h Facilité par Jean-Marc Priels (psychologue)
+                </div><div class="col-12">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5037.588416361444!2d4.391602!3d50.853495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c35b9031a5eb%3A0xb754562a96a8d16c!2sChauss%C3%A9e+de+Louvain+399%2C+1030+Schaerbeek%2C+Belgique!5e0!3m2!1sfr!2sus!4v1539958366913" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </div></div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              a
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="tab-pane fade" id="nav-nam" role="tabpanel" aria-labelledby="nav-nam-tab">
+          
+        </div>
       </div>
     </div>
     <hr> <!-- à viré ensuite par une image ou autre -->
@@ -149,14 +176,14 @@
     <div class="jumbotron image_personne_bipolaire">
       <img class="d-block w-100" src="assets/img/jumbo1.jpg" alt="Second slide">
     </div>
-    <div class="content row sommaire_all">
+    <!--<div class="content row sommaire_all">
       <div class="col-12 text-center sommaire_title">
         <h2>sommaire</h2>
       </div>
       <div class="sommaire_txt">
 
       </div>
-    </div>
+    </div>-->
     <div class="container temoignage_all">
       <div class="temoignage_title h1 text-center">
         témoignages
@@ -218,7 +245,7 @@
       </div>
     </div>
     <div class="container conseils_all">
-      <div class="conseils_title">
+      <div class="conseils_title text-center h2">
         <p>12 Conseils aux proches d'une personne bipolaire</p>
       </div>
       <div class="conseils_txt">
@@ -422,7 +449,7 @@
   </div>
 
 
-
+<div class="footer"></div>
   </div>
   
 
