@@ -1,0 +1,88 @@
+body{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    background-image: url("../img/fond.jpg");
+    
+}
+
+.accueil_title {
+    margin-top:2em;
+}
+
+.nav_bar_header {
+    background-color: rgb(252, 200, 104)
+}
+
+.qui_sommes_nous_all {
+
+}
+
+.qui_sommes_nous_title {
+    background-color: rgb(252, 200, 104);
+
+}
+
+.qui_sommes_nous_txt {
+
+
+}
+
+.qui_sommes_nous_points {
+ padding-top: 1.5em;
+ color: rgb(0, 2, 110);
+ padding-bottom: 1.5em;
+ 
+ 
+}
+
+.ou_nous_trouver_all {
+    
+}
+
+.ou_nous_trouver_title {
+    background-color: rgb(252, 200, 104);
+    padding-bottom: 0.2em;
+}
+.sommaire_title{
+    
+ 
+}
+.h1{
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+.h2{
+    background-color: rgb(252, 200, 104);
+    
+    
+}
+.foire_aux_question_txtr{
+    margin-bottom: 2em;
+}
+.livre_img_top{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#nav-tab {
+
+}
+
+#nav-bxl-tab {
+
+}
+
+#nav-nam-tab {
+
+}
+
+#nav-bru {
+
+}
+
+#nav-nam {
+
+}
+
+.map {
+    margin-top: 20px;
+}
